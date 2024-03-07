@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    body{
+        font-family: "Inter", sans-serif;
+    }
+    .custom-gradient{
+        background: linear-gradient(90deg, #FF4949 0%, #FF4E11 15.34%, #FC870A 30.45%, #FFAF11 48.68%, #C2CB21 62.75%, #11EB68 100.03%);
+    }
+
+    .blue-gradient{
+        background: linear-gradient(135deg, #79F1A4 0%, #0E5CAD 100%);
+    }
+
+    .red-gradient{
+        background: linear-gradient(135.73deg, #FF9865 0%, #EF3031 110.55%);
+    }
+
+    .signup-box{
+        background: #0052FE;
+    }
+
+}
